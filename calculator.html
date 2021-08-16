@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="calculator.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container" style="display: flex; justify-content: center">
+      <div class="calculator">
+        <div id="screen"></div>
+        <div class="operators">
+          <button type="button" class="operator">AC</button>
+          <button type="button" class="operator">+/-</button>
+          <button type="button" class="operator">%</button>
+          <button type="button" class="operator">÷</button>
+        </div>
+        <div class="numbers">
+          <div class="number-row">
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" class="operator">*</button>
+          </div>
+          <div class="number-row">
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" class="operator">-</button>
+          </div>
+          <div class="number-row">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" class="operator">+</button>
+          </div>
+          <button type="button" id="zero">0</button>
+          <button type="button">.</button>
+          <button type="button" class="operator">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="calculator.js"></script>
+</html>
